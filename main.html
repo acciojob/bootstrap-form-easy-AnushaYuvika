@@ -16,31 +16,31 @@
 		<form class="needs-validation" novalidate>
 			<div class="row g-3 box1">
 		  <div class="col">
-			  <label for="inputEmail4" class="form-label">First Name</label>
-			  <input type="text" class="form-control" required aria-label="First name">
+			  <label for="first-name-input" class="form-label">First Name</label>
+			  <input type="text" class="form-control" id="first-name-input" required aria-label="First name">
 			  <div class="invalid-feedback">first name required</div>
 		  </div>
 		  <div class="col">
-			  <label for="inputEmail4" class="form-label">Last Name</label>
-			  <input type="text" class="form-control" required aria-label="Last name">
+			  <label for="last-name-input" class="form-label">Last Name</label>
+			  <input type="text" class="form-control" id="last-name-input" required aria-label="Last name">
 			  <div class="invalid-feedback">last name required</div>
 		  </div>
 		  <div class="col">
-			  <label for="inputEmail4" class="form-label">Email Address</label>
-			  <input type="text" class="form-control" required placeholder="abc@abc.com" aria-label="mail">
+			  <label for="email-input" class="form-label">Email Address</label>
+			  <input type="text" class="form-control" id="email-input" required placeholder="abc@abc.com" aria-label="mail">
 			   <div class="invalid-feedback">Email required</div>
 		  </div>
 		</div>
 
 		<div class="row g-3 box2">
 		  <div class="col">
-			  <label class="form-label">College</label>
-			  <input type="text" class="form-control" required aria-label="First name">
+			  <label class="form-label" for="college-input">College</label>
+			  <input type="text" class="form-control" id="college-input" required aria-label="First name">
 			  <div class="invalid-feedback">Please provide a valid college.</div>
 		  </div>
 		  <div class="col">
 			  <label class="form-label">Graduation Year</label>
-			  <select class="form-select" aria-label="Default select example" required>
+			  <select class="form-select" id="graduation-year-input" aria-label="Default select example" required>
 				  <option value="" selected>Choose...</option>
 				  <option value="1">2020</option>
 				  <option value="2">2021</option>
@@ -51,14 +51,14 @@
 		  </div>
 		  <div class="col">
 			  <label class="form-label">Roll No.</label>
-			  <input type="text" class="form-control" required aria-label="mail">
+			  <input type="text" class="form-control" id="rollno-input" required aria-label="mail">
 			  <div class="invalid-feedback">Please provide a valid Roll No.</div>
 		  </div>
 		</div>
 
 		<div class="form-check">
-		  <input class="form-check-input" required type="checkbox" value="" id="checkDefault">
-		  <label class="form-check-label ms-1 " for="checkDefault">
+		  <input class="form-check-input" id="conditions-checkbox" required type="checkbox" value="" id="checkDefault">
+		  <label class="form-check-label ms-1 " for="conditions-checkbox">
 		    Agree to terms and conditions
 		  </label>
 			<div class="invalid-feedback">You must agree before submitting.</div>
