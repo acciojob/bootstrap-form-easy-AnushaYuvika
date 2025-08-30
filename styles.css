@@ -1,2 +1,21 @@
-
 /* Your CSS Code here. */
+h1 {
+	text-align: center;
+}
+
+.box1 {
+	padding: 20px;
+}
+.box2 {
+	padding: 20px;
+}
+
+.form {
+	border: 1px solid lightgray;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+.form-check {
+	padding: 20px;
+}
