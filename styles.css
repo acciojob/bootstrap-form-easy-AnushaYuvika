@@ -1,2 +1,12 @@
+form {
+	border: 1px solid lightgray;
+	margin: 4%;
+	padding: 3%;
+	border-radius: 5px;
+}
+h1 {
+	text-align: center;
+	padding-bottom: 30px;
+}
 
 /* Your CSS Code here. */
